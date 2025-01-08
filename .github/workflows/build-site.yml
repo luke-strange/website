@@ -2,7 +2,7 @@ name: Publish on GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
     paths:
       - 'src/**'
       - '_config.ts'
@@ -27,14 +27,14 @@ jobs:
 
       - name: Build site
         run: deno task build
-      
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '_site'
+          path: "_site"
 
       - name: Deploy to GitHub Pages
         id: deployment
