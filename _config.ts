@@ -9,7 +9,7 @@ import googleFonts from "lume/plugins/google_fonts.ts";
 
 const site = lume({
     src: './src',
-    location: new URL("https://luke-strange.github.io/website"),
+    location: new URL("https://lukestrange.uk"),
 });
 
 site.use(basePath());
