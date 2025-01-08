@@ -1,0 +1,28 @@
+body {
+    font-family: 'Lato';
+    font-size: 100%;
+    margin: 1em;
+    background-color: wheat;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* header .small-text {
+    font-size: 75%;
+} */
+
+.small-text {
+    font-size: 80%;
+    font-weight: 900;
+}
+.xsmall-text {
+    font-size: 65%;
+}
+
+header * + div {
+    margin-top: 0.5em;
+}
+
+hr { border: none; height: 1px; color: black; background-color: black;}

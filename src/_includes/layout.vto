@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles.css"/>
+    <link rel="stylesheet" href="/fonts.css"/>
+    <title>{{ title }} | Luke Strange</title>
+</head>
+
+<header>
+    {{ include '/layouts/header.vto' }}
+</header>
+
+<h1>{{title}}</h1>
+
+{{# <p><a href="/">Luke Strange</a></p> Make a header with home link that appears on every page #}}
+
+<body>
+    {{ content }}
+</body>
+</html>
