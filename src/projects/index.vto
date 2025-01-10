@@ -5,21 +5,17 @@ title: projects
     <h2>{{ item.where }}</h2>
     <div class='grid'>
     {{ for e of item.examples }}
-        {{ if e.url }}
-            {{ set t = "_blank "}}
-        {{ else }}
-            {{ set t = "" }}
-        {{ /if }}
-
-        <a target="{{t}}" class='showcase-link' href="{{ e.url }}">
             <div class='wrapper'>
-                <div class='showcase'>
+            {{ if e.url }}
+                <a class="showcase" target="{{t || none }}" href="{{ e.url || none}}">
+            {{ else }}
+                <a class="showcase" href="/projects">
+            {{ /if }}
                     <h4>{{ e.name }}</h4>
                     <p>{{ e.desc }}</p>
                     <p class='skills'>Skills: <code>{{ e.skills }}</code></p>
-                </div>
+                </a>
             </div>
-        </a>
     {{ /for }}
     </div>
 {{ /for }}

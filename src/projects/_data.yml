@@ -18,15 +18,16 @@ projects:
         - dvc
         - HTML
         - CSS
+        
   - where: University of Birmingham
     examples:
-      - name: Master's
-        desc: Rapid Bayesian inference of supermassive black hole binaries
+      - name: "Master's"
+        desc: "Rapid Bayesian inference of supermassive black hole binaries"
         skills:
         - python
         - pytorch
         - numpy
         - scipy
         - pandas
-        - big data
+        - "big data"
         
