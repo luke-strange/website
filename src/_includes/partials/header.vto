@@ -1,0 +1,23 @@
+<div class='small-text' style='display: flex;'>
+    <div>
+        <a href="/">Luke Strange's page</a>
+        <br />I made this.
+    </div>
+    <div style='margin-left: 2em;'>
+    {{# <ul style='margin: 0; display: flex; gap: 2em;'>
+        {{ for t of topics }}
+            <li style='display: inline;'>{{ t.name }}{{search.pages(t.name)}}</li>
+        {{ /for }}
+    </ul> #}}
+        <ul class="menu" style='margin: 0; display: flex; gap: 2em;'>
+            {{ for item of nav.menu().children }}
+                <li style='display: inline;'>
+                {{ include "templates/menu_item.vto" { item } }}
+                </li>
+            {{ /for }}
+        </ul>
+    </div>
+</div>
+
+
+<hr></hr>

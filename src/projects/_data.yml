@@ -1,0 +1,32 @@
+projects:
+  - where: Open Innovations
+    examples:
+      - name: Bus tracking
+        desc: Tracking the live locations of every bus in England and comparing it to the timetable
+        url: https://open-innovations.org/projects/bus-tracking/test
+        skills:
+        - python
+        - big data
+        - pandas
+        - javascript
+      - name: techUK
+        desc: Building the 2024 Local Digital Index for techUK
+        url: https://techuk-digital-index.thedatacity.com/
+        skills:
+        - python
+        - R
+        - dvc
+        - HTML
+        - CSS
+  - where: University of Birmingham
+    examples:
+      - name: Master's
+        desc: Rapid Bayesian inference of supermassive black hole binaries
+        skills:
+        - python
+        - pytorch
+        - numpy
+        - scipy
+        - pandas
+        - big data
+        

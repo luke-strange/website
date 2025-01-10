@@ -1,0 +1,8 @@
+---
+title: blog
+---
+<ul>
+    {{ for page of search.pages('type=blog', 'blog') }}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {{ /for }}
+</ul>

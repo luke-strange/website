@@ -1,6 +1,10 @@
-layout: layout.vto
+layout: templates/base.vto
 
 metas:
   site: Personal website of Luke Strange
   lang: en
   keywords: [luke, strange, website]
+
+topics:
+  - name: one
+  - name: two

@@ -11,7 +11,7 @@ a {text-decoration:none}
 fieldset {border:0}
 input, textarea, select, button {display:block;max-width:100%;font-family:inherit;font-size:inherit;color:inherit}
 label {display:table}
-input[type="text"], input[type="email"], input[type="password"], input[type="search"] {-webkit-appearance:none} /*--- for Safari (add/remove types as needed) ---*/
+input[type="text"], input[type="email"], input[type="password"], input[type="search"] {-webkit-appearance:none;} /*--- for Safari (add/remove types as needed) ---*/
 button {line-height:inherit}
 button::-moz-focus-inner {border:0} /*--- for Firefox ---*/
 html {text-size-adjust:100%;-webkit-text-size-adjust:100%;font-size:1.25em} /*--- optional base font size ---*/

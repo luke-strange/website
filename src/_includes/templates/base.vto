@@ -9,14 +9,12 @@
 </head>
 
 <header>
-    {{ include '/layouts/header.vto' }}
+    {{ include '/partials/header.vto' }}
 </header>
-
-<h1>{{title}}</h1>
-
+{{ if type == 'blog' }}
+    {{ include '/templates/blog.vto' }}
 {{# <p><a href="/">Luke Strange</a></p> Make a header with home link that appears on every page #}}
-
-<body>
-    {{ content }}
-</body>
+{{ else }}
+    {{ include '/templates/page.vto' }}
+{{ /if }}
 </html>
