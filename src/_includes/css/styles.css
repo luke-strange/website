@@ -1,9 +1,4 @@
-body {
-    font-family: 'Lato';
-    font-size: 100%;
-    margin: 1em;
-    background-color: wheat;
-}
+body { font-family: 'Lato'; font-size: 100%; color: black; background-color: wheat; max-width: 1440px; margin: auto;}
 
 
 code { font-family: monospace; }
@@ -21,23 +16,19 @@ strong { font-weight: 700; }
 em { font-style: italic; }
 
 li { padding-bottom: 10px; }
+a:hover, a:focus {text-decoration: underline;}
 
-.grid { 
-    display: grid;
-    grid-template-columns: repeat(5,1fr); 
-    grid-gap: 1em; 
-    /* max-width: 100%; */
+.grid { --auto-grid-gap: 1rem;
+    display: flex;
+    gap: var(--auto-grid-gap);
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
 }
 
 hr { border: none; height: 1px; color: black; background-color: black;}
 
-.wrapper {
-    /* display: inline-block; */
-    display: flex;
-    align-items: stretch;
-    /* padding-top: 20px;
-    padding-bottom: 20px; */
-}
+.wrapper {display: flex;align-items: stretch;}
 
 .showcase {
     padding: 1em;
@@ -46,31 +37,18 @@ hr { border: none; height: 1px; color: black; background-color: black;}
     display: block;
     color: inherit;
     text-decoration: none;
+    max-width: 18rem;
+    min-width: 18rem;
 }
-.showcase p {
-    font-size: small;
-}
-p.skills {
-    color: grey;
-}
+.showcase p {font-size: small;}
+.showcase:hover {background-color: rgb(12, 12, 12);color: aliceblue;transition-duration: 0.3s;text-decoration: none;}
+p.skills {color: grey;}
+a.showcase-link { display: flex; color: inherit; text-decoration: none; }
 
-.showcase:hover {
-    background-color: rgb(12, 12, 12);
-    color: aliceblue;
-    transition-duration: 0.3s;
-}
-/* a:hover, a:focus {
-    text-decoration: underline;
-} */
+div:last-of-type() { padding-bottom: 20px; }  
 
-@media only screen and (max-width: 768px) {
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(1,1fr); 
-        grid-gap: 1em;
-    }
-}
+header, footer {margin: 1em;}
 
-/* div:last-of-type() {
-   padding-bottom: 20px;    
-} */
+footer { text-align: center; font-size: smaller; }
+
+.container { margin: 1em; padding: 20px 0; }

@@ -2,26 +2,67 @@ projects:
   - where: Open Innovations
     examples:
       - name: Bus tracking
+        start_date: 2024-09
         desc: Tracking the live locations of every bus in England and comparing it to the timetable
-        url: https://open-innovations.org/projects/bus-tracking/test
+        url: https://open-innovations.github.io/bus-tracking
         skills:
         - python
         - big data
         - pandas
         - javascript
-      - name: techUK
+        - project management
+      - name: techUK Local Digital Index
+        start_date: 2024-09
         desc: Building the 2024 Local Digital Index for techUK
         url: https://techuk-digital-index.thedatacity.com/
         skills:
         - python
         - R
-        - dvc
+        - DVC
         - HTML
         - CSS
+        - bid writing
+      - name: Housing Data Explorer
+        start_date: 2024-06
+        desc: Visualisation and analysis of open housing data for England.
+        url: https://open-innovations.github.io/housing
+        skills:
+        - python
+        - SQL
+        - DuckDB
+        - CSS
+        - TypeScript
+      - name: General Election Hex Mapping
+        start_date: 2024-07
+        desc: Data for the 2024 UK General Election on a hex map and by constituency
+        url: https://ge2024.hexmap.uk
+        skills:
+        - python
+        - visualisation
+        - javascript
+      - name: True North Data Explorer
+        start_date: 2024-05
+        desc: Economic data for North England, supporting the True North network
+        url: https://open-innovations.github.io/true-north/
+        skills:
+        - python
+        - DVC
+        - HTML
+        - CSS
+      - name: Northern England Insight Finder
+        start_date: 2023-05
+        desc: A prototype data and insight hub to connect exisitng open-source datasets relating to poverty. In collaboration with the Joseph Rowntree Foundation.
+        url: https://open-innovations.github.io/jrf-insight/
+        skills:
+        - python
+        - DVC
+        - DuckDB
+        - SQL
+        - visualisation
         
   - where: University of Birmingham
     examples:
-      - name: "Master's"
+      - name: "Master's thesis"
         desc: "Rapid Bayesian inference of supermassive black hole binaries"
         skills:
         - python
@@ -29,5 +70,18 @@ projects:
         - numpy
         - scipy
         - pandas
-        - "big data"
+        - big data
+        - report writing
+        - presentation
+        - high performance computing
+      - name: 3rd year dissertation
+        desc: "Bayesian inference of GWTC-2 candidates: Compact Binary Coalescences Observed by LIGO and Virgo"
+        skills:
+        - python
+        - scipy
+        - group work
+        - visualisation
+        - report writing
+        - presentation
+        - high performance computing
         
