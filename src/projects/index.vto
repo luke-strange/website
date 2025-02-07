@@ -7,13 +7,14 @@ title: projects
     {{ for e of item.examples }}
             <div class='wrapper'>
             {{ if e.url }}
-                <a class="showcase" target="{{t || none }}" href="{{ e.url || none}}">
+                <a class="showcase" target="{{ '_blank' || none }}" href="{{ e.url || none}}">
             {{ else }}
                 <a class="showcase" href="/projects">
             {{ /if }}
                     <h4>{{ e.name }}</h4>
                     <p>{{ e.desc }}</p>
                     <p class='skills'>Skills: <code>{{ e.skills }}</code></p>
+                    {{ if e.start_date }}<p>Started: {{ e.start_date }}</p>{{ /if }}
                 </a>
             </div>
     {{ /for }}
