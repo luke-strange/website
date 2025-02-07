@@ -12,9 +12,12 @@
     {{ include '/partials/header.vto' }}
 </header>
 {{ if type == 'blog' }}
-    {{ include '/templates/blog.vto' }}
+    {{ include '/templates/blog.vto' |> md }}
 {{# <p><a href="/">Luke Strange</a></p> Make a header with home link that appears on every page #}}
 {{ else }}
     {{ include '/templates/page.vto' }}
 {{ /if }}
+<footer>
+ {{ include '/partials/footer.vto'}}
+</footer>
 </html>
