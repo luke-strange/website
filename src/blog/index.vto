@@ -2,7 +2,7 @@
 title: blog
 ---
 <ul>
-    {{ for page of search.pages('type=blog', 'blog') }}
-        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {{ for page of search.pages('type=blog', 'createdAt') }}
+        <li><a href="{{ page.url }}">{{ page.title }}</a><br /><span style="font-size: 12pt;">{{ page.createdAt |> date('HUMAN_DATE') }}</span></li>
     {{ /for }}
 </ul>

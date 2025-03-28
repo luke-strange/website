@@ -1,6 +1,8 @@
 <body>
     <div class='container'>
     <div class='blog-container'>
+        <h1>{{ title }}</h1><em>{{ createdAt |> date("HUMAN_DATE") }}</em>
+        <br />
         {{ content }}
     </div>
     </div>

@@ -8,7 +8,6 @@ projects:
         skills:
         - python
         - big data
-        - pandas
         - javascript
         - project management
       - name: techUK Local Digital Index
@@ -66,6 +65,15 @@ projects:
         skills:
         - python
         - visualisation
+      - name: Constituencies API Experiment
+        start_date: 2025-03
+        desc: Building a site that automatically creates visualisations and dashboards using the API for Open Innovation's constituency site.
+        url: https://open-innovations.github.io/constituency-api-test
+        skills:
+        - javascript
+        - css
+        - visualisation
+
   - where: Personal
     examples:
       - name: "Visual Fantasy Premier League"
@@ -75,7 +83,7 @@ projects:
         skills:
         - javascript
         - css
-        
+
   - where: University of Birmingham
     examples:
       - name: "Master's thesis"
