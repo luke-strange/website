@@ -59,6 +59,22 @@ projects:
         - DuckDB
         - SQL
         - visualisation
+      - name: Constituencies data
+        start_date: 2023-08
+        desc: Mapping data about UK constituencies on hex maps
+        url: https://constituencies.open-innovations.org/
+        skills:
+        - python
+        - visualisation
+  - where: Personal
+    examples:
+      - name: "Visual Fantasy Premier League"
+        start_date: 2025-03
+        desc: Visualising data from the Fantasy Premier League game
+        url: http://luke-strange.github.io/fpl
+        skills:
+        - javascript
+        - css
         
   - where: University of Birmingham
     examples:
