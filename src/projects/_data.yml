@@ -65,7 +65,7 @@ projects:
         skills:
         - python
         - visualisation
-      - name: Constituencies API Experiment
+      - name: Constituency dashboards
         start_date: 2025-03
         desc: Building a site that automatically creates visualisations and dashboards using the API for Open Innovation's constituency site.
         url: https://open-innovations.github.io/constituency-api-test
