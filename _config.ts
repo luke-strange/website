@@ -18,10 +18,12 @@ site.use(basePath());
 site.use(metas());
 site.use(nav());
 site.use(postcss());
+site.add([".css"]);
 
 site.use(googleFonts({
     fonts:
       "https://fonts.google.com/share?selection.family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900",
+      cssFile: "/assets/styles.css"
   }));
 
 site.use(date());
