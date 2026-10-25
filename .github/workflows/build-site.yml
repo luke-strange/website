@@ -2,7 +2,7 @@ name: Publish on GitHub Pages
 
 on:
   push:
-    branches: [master]
+    branches: [main, tech-cv]
     paths:
       - 'src/**'
       - '_config.ts'

@@ -1,0 +1,215 @@
+name: Luke Strange
+about: Data Engineer
+location: 'London, UK'
+avatar: /files/me.jpg
+contact:
+  - label: Web
+    url: 'https://www.lukestrange.uk'
+  - label: Email
+    url: 'mailto:lukestrange123@gmail.com'
+  - label: GitHub
+    url: 'https://github.com/luke-strange'
+  - label: LinkedIn
+    url: 'https://www.linkedin.com/in/luke-strange-8541081b5/'
+blocks:
+  - type: text
+    title: About
+    content: >-
+      Data Engineer with three years' experience building data pipelines, scalable data processing systems, and open-source tools. Experienced in developing production-ready solutions across data engineering, machine learning, and customer-facing products to solve real-world problems.
+  - type: work
+    title: Work
+    items:
+      - title: Data Engineer
+        company: The Data City
+        company_url: 'https://www.thedatacity.com/'
+        tags:
+          - Python
+          - Numpy
+          - Polars
+          - DuckDB
+          - Scikit-learn
+          - PostgreSQL
+          - MYSQL
+          - Web-scraping
+          - C#.NET
+          - Azure
+          - Cloudflare R2
+          - AI
+          - Technical writing
+        start: 'Jun 2025'
+        end: Present
+        description: >
+          Leading the business-critical company-to-website matching pipelines across 5 territories, supporting multiple downstream product features.
+          Working on ML techniques to understand the frontier economy. Scraping the web at scale.
+
+          - Example 1
+
+          - Example 2
+
+          - Example 3
+          
+      - title: Data and Web Engineer
+        company: Open Innovations
+        company_url: 'https://open-innovations.org/'
+        tags:
+          - Python
+          - JavaScript
+          - CSS
+          - Open-source
+          - Technical writing
+        start: 'March 2023'
+        end: 'Sept 2025'
+        description: >
+          Completed 14 open-source data projects with public and private sector clients across transport, environment, education, employement, and local government.
+
+          - Example 1
+
+          - Example 2
+
+          - Example 3
+  
+  - type: tech
+    title: Technical skills
+    items:
+      - label: Python
+        icon: brand-python
+      - label: SQL
+        icon: sql
+      - label: DuckDB
+        icon: database
+      - label: PostgreSQL
+        icon: database
+      - label: GitHub
+        icon: brand-github
+      - label: Azure
+        icon: brand-azure
+      - label: Cloudflare R2
+        icon: brand-cloudflare
+      - label: Linux
+        icon: code
+      - label: .NET
+        icon: brand-c-sharp
+  - type: education
+    title: Education
+    items:
+      - school: University of Birmingham
+        degree: > 
+          <p><strong>MSci Physics (1st Class Hons)</strong></p>
+          <br/><p style="text-decoration:underline;">Theses</p>
+
+            - Using Neural Networks for <a href="https://github.com/luke-strange/y4-project">Rapid Bayesian Inference of Supermassive Binary Black Holes</a>
+
+            - Bayesian Inference of GWTC-2 Candidates: Compact Binary Coalescences Observed by LIGO and VIRGO
+
+          <br/><p style="text-decoration:underline;">4th year modules</p>
+
+            - The General Theory of Relativity
+            - Quantum Mechanics 4
+            - Many Particle and Quantum Field Theory
+            - Condensed Matter Physics
+            - Inference from Scientific Data
+            - Ultracold Atoms and Quantum Gases
+            - Relativistic Astrophysics
+          
+          <br/><p style="text-decoration:underline;">Activities</p>
+
+            - BP Stem Scholarship
+
+            - Student Ambassador
+
+            - Institute of Physics Levelling Up mentor      
+        start: '2018'
+        end: '2022'
+      # - school: Roundhay School
+      #   degree: >-
+      #     - A-levels: 3A* (Maths, Physics, Further Maths)
+
+      #     - Distinction Grade 5 Music Theory
+
+      #     - Duke of Edinburgh Bronze and Silver
+      #   start: '2016'
+      #   end: '2018' 
+  - type: projects
+    title: Projects
+    items:
+      - title: National data library
+        url: 'https://datalibrary.uk/'
+        tags:
+          - personal
+          - linux
+          - nginx
+          - python
+        description: Making high-value public datasets available as proposed in the UK's AI Opportunities Action Plan
+      - title: Tracking every bus in England
+        url: 'https://open-innovations.github.io/bus-tracking/'
+        tags:
+          - open-innovations
+        description:
+          Tracking every bus in England for 2 weeks and creating the 'real' timetable to measure lost economic productivity
+      - title: Linked companies
+        url: 'https://thedatacity.com/blog/linked-companies-understanding-the-real-number-of-businesses-in-the-uk/'
+        tags:
+          - the-data-city
+          - python
+          - duckdb
+          - splink
+        description: >
+          Using machine learning to identify legally registered companies that make up a single economic unit
+      - title: Visual Fantasy Premier League
+        url: 'https://luke-strange.github.io/fpl/'
+        tags:
+          - personal
+          - JavaScript
+          - css
+        description: >
+          Live data visualisations for the Fantasy Premier League game
+      - title: Constituency dashboards
+        url: 'https://dashboard.constituencies.org.uk/'
+        tags:
+          - open-innovations
+        description: A data dashboard for every UK constituency
+      - title: Constituency data
+        url: 'https://hex.constituencies.org.uk/'
+        tags:
+          - open-innovations
+        description: >
+          Mapping data about UK constituencies on hex maps (cartograms)
+      - title: True North Data Explorer
+        url: 'https://open-innovations.github.io/true-north/'
+        tags:
+          - open-innovations
+        description: >
+          Data explorer for True North, a network,committed to supporting the future of the North
+      - title: Northern England Insight Finder
+        url: 'https://open-innovations.github.io/jrf-insight/'
+        tags:
+          - open-innovations
+        description: >
+          A prototype data and insight hub to connect disparate data sources related to poverty.
+      - title: General Election Hex Mapping
+        url: 'https://ge2024.hexmap.uk/'
+        tags:
+          - open-innovations
+        description: Data for the 2024 UK General Election on a hex map and by constituency
+      - title: Housing Data Explorer
+        url: 'https://open-innovations.github.io/housing/'
+        tags:
+          - open-innovations
+        description: >
+          Visualisation and analysis of open housing data for England
+      - title: techUK Local Digital Index
+        url: 'https://index.techuk.org/'
+        tags:
+          - open-innovations
+          - the-data-city
+        description: >
+          Data site to map the Growth of the UK's Digital Economy
+    
+  - type: text
+    title: Personal Interests
+    content: >
+      <p>Self-taught music producer. Distinction in Grade 5 music theory.</p>
+      
+      <p>Keen Ultimate Frisbee player winning Gold at Division 2 Nationals 2026, Silver at UK University Nationals 2021, and volunteering at the 2024 U23 World Championships.</p>
+
+      <p>Bronze and Silver Duke of Edinburgh award.</p>
