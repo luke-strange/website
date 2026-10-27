@@ -39,14 +39,11 @@ blocks:
         start: 'Jun 2025'
         end: Present
         description: >
-          Leading the business-critical company-to-website matching pipelines across 5 territories, supporting multiple downstream product features.
-          Working on ML techniques to understand the frontier economy. Scraping the web at scale.
-
-          - Example 1
-
-          - Example 2
-
-          - Example 3
+          Leading the business-critical company-to-website 
+          matching pipelines across 5 territories, supporting 
+          multiple downstream product features.
+          Working on ML techniques to understand the frontier 
+          economy. Scraping the web at scale.
           
       - title: Data and Web Engineer
         company: Open Innovations
@@ -60,13 +57,9 @@ blocks:
         start: 'March 2023'
         end: 'Sept 2025'
         description: >
-          Completed 14 open-source data projects with public and private sector clients across transport, environment, education, employement, and local government.
-
-          - Example 1
-
-          - Example 2
-
-          - Example 3
+          Completed 14 open-source data projects with public and 
+          private sector clients across transport, environment, 
+          education, employement, and local government.
   
   - type: tech
     title: Technical skills
